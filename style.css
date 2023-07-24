@@ -61,7 +61,7 @@ a{
 }
 
 #front{
-    height: 770px;
+    height: 100vh;
     background: url('bg.png') rgba(0, 0, 0, 0.8);
     background-size: cover;
     background-blend-mode: darken;
@@ -73,8 +73,8 @@ a{
 
 #front h1{
     position:absolute;
-    margin-top: 200px;
-    margin-left: 150px;
+    top: 6.7%;
+    left: 10%;
     font-size: 60px;
     line-height: 100px;
     background: -webkit-linear-gradient(#b5b5c7, #574d8e);
@@ -83,15 +83,17 @@ a{
 }
 
 .prsnl{
-    float: right;
-    margin-top: 220px;
-    margin-right: 200px;
+    position: absolute;
+    top: 6.7%;
+    right: 10%;
     width: 350px;
     border-radius: 50%;
 }
 
 .cv{
-    margin:530px 0px 0px 150px;
+    position: relative;
+    top: 70%;
+    left: 10%;
     text-align: center;
     padding: 10px 15px 12px;
     border: 3px solid rgb(64, 64, 148);
@@ -118,7 +120,7 @@ a{
 
 #works{
     background-color: #111111;
-    height: 1200px;
+    height: 150vh;
     padding-top: 40px;
     color: #ffffff;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -130,32 +132,34 @@ a{
 }
 
 .head{
+    position: relative;
     text-align: center;
     font-size: 43px;
-    padding-top: 60px;
-    margin-bottom: 60px;
-    margin-top: -125px;
+    bottom: 5.5%;
 }
 
 #works img{
     height: 230px;
     width: 380px;
-    margin-top: 13px;
     border: 3px solid #ffffff;
     border-radius: 10px;
 }
 
 .first, .third{
-    max-width: 1000px;
+    max-width: 1500px;
     height: 40vh;
+    margin-bottom: 30px;
     display: flex;
-    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.works{
+    margin: 40px;
 }
 
 .txt p, h2{
-    margin-left: 50px;
-    margin-top: 20px;
-    margin-right: 50px;
+    margin-top: 2%;
     max-width: 500px;
     line-height: 23px;
     text-align: justify;
@@ -163,37 +167,42 @@ a{
 
 .second{
     max-width: 1000px;
-    margin-left: 200px;
-    height: 40vh;
+    margin-left: 230px;
+    margin-bottom: 30px;
     display: flex;
     flex-direction: row-reverse;
 }
 
 #contact{
     text-align: center;
-    padding: 100px 0px 80px;
+    padding-top: 5%;
     font-family: 'Merriweather', serif;
     color: #ffffff;
     background-color: #090a15;
 }
 
 .form{
-    height: 450px;
+    height: 75vh;
+}
+
+.contact{
+    margin-top: 1.5%;
+    font-size: 35px;
 }
 
 .textarea{
-    margin-top: 40px;
+    margin-top: 2%;
 }
 
 .input, textarea{
     display: block;
     margin: 20px auto 20px;
     width: 700px;
-    padding: 7px 8px;
+    padding: 7px 13px;
     outline: none;
     border-radius: 8px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
+    font-size: 17px;
     border-color: #000000;
 }
 

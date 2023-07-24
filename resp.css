@@ -163,3 +163,52 @@
     }
 
 }
+
+@media (max-width: 1000px){
+    #header img{
+        width: 100px;
+        margin-left: 0;
+    }
+
+    #header ul{
+        margin-right: 100px;
+        margin-top: 17px;
+    }
+
+    .container span{
+        margin: 20px;
+    }
+
+    li{
+        font-size: 15px;
+    }
+
+    #front{
+        width: 100vw;
+    }
+
+    .prsnl{
+        position: absolute;
+        left: 38%;
+        top: 4%;
+        text-align: center;
+        width: 250px;
+    }
+
+    #front h1{
+        position: absolute;
+        top: 14%;
+        left: 32%;
+        font-size: 40px;
+        line-height: 60px;
+        text-align: center;
+    }
+
+    .cv{
+        left: 41.5%;
+        top: 80%;
+        font-size: 19px;
+        width: 170px;
+        height: 60px;
+    }
+}
