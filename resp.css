@@ -175,12 +175,13 @@
     }
 
     #header img{
-        width: 130px;
+        width: 150px;
         margin-left: 0;
+        margin-top: 20px;
     }
 
     #header ul{
-        margin-right: 100px;
+        margin-right: 70px;
     }
 
     .container span{
