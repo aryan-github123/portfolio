@@ -4,7 +4,7 @@
     }
 
     #header img{
-        width: 200px;
+        width: 150px;
         margin-top: 20px;
     }
 
@@ -13,7 +13,7 @@
     }
 
     .container span{
-        margin: 30px;
+        margin: 25px;
     }
 
     #header ul{
@@ -22,7 +22,7 @@
     }
 
     #header li{
-        font-size: 28px;
+        font-size: 25px;
         margin-left: 150px;
     }
 
@@ -175,7 +175,7 @@
     }
 
     #header img{
-        width: 150px;
+        width: 200px;
         margin-left: 0;
     }
 
@@ -185,11 +185,11 @@
     }
 
     .container span{
-        margin: 27px;
+        margin: 30px;
     }
 
     li{
-        font-size: 25px;
+        font-size: 28px;
     }
 
     #front{
