@@ -164,7 +164,7 @@
 
 }
 
-@media (max-width: 1000px){
+@media (max-width: 600px){
 
     #header{
         height: 100px;
@@ -175,9 +175,8 @@
     }
 
     #header img{
-        width: 150px;
-        margin-left: 0;
-        margin-top: 100px;
+        width: 130px;
+        margin-left: -60px;
     }
 
     #header ul{
@@ -189,11 +188,11 @@
     }
 
     li{
-        font-size: 25px;
+        font-size: 20px;
     }
 
     #front{
-        width: 100vw;
+        width: 100%;
     }
 
     .prsnl{
@@ -201,7 +200,7 @@
         left: 33%;
         top: 4%;
         text-align: center;
-        width: 550px;
+        width: 350px;
     }
 
     #front h1{
