@@ -4,9 +4,8 @@
     }
 
     #header img{
-        width: 110px;
+        width: 200px;
         margin-top: 20px;
-        margin-left: 0;
     }
 
     .container{
@@ -14,16 +13,16 @@
     }
 
     .container span{
-        margin: 25px;
+        margin: 30px;
     }
 
     #header ul{
         margin-top: 25px;
-        margin-right: 150px;
+        margin-right: 200px;
     }
 
     #header li{
-        font-size: 22px;
+        font-size: 30px;
         margin-left: 150px;
     }
 
@@ -176,7 +175,8 @@
     }
 
     #header img{
-        width: 150px;
+        width: 130px;
+        margin-left: 0;
     }
 
     #header ul{
