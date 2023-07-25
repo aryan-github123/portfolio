@@ -165,8 +165,17 @@
 }
 
 @media (max-width: 1000px){
+
+    #header{
+        height: 80px;
+    }
+
+    .container{
+        margin-top: 10px;
+    }
+
     #header img{
-        width: 100px;
+        width: 150px;
         margin-left: 0;
     }
 
@@ -176,11 +185,11 @@
     }
 
     .container span{
-        margin: 20px;
+        margin: 30px;
     }
 
     li{
-        font-size: 15px;
+        font-size: 20px;
     }
 
     #front{
